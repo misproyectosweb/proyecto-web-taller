@@ -1,0 +1,201 @@
+/* Encabezado */
+header .iconHeader { font-size: 2rem; } 
+header p { font-size: 0.8rem; }
+header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+header .row img.img-fluid.w-50 { width: 50% !important; }
+
+/* Menu de navegación */
+header .nav .nav-item .nav-link { font-size: 1.25rem !important; }
+header .nav .nav-item .nav-link .iconNav { font-size: 1.5rem !important; } 
+header .p-3 { padding: 1rem !important; } 
+
+/* Sección principal */
+main .col-sm-6 { max-width: 35% !important; }
+main .col-sm-4 { max-width: 30% !important; } 
+
+/* Pie de página */
+footer { font-size: 0.9rem !important; }
+footer .row { flex-wrap: nowrap; }      
+footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+
+/****************************** Media queries ******************************/
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+   /* Encabezado */
+   header .iconHeader { font-size: 1.5rem; } 
+   header p { font-size: 0.75rem; }
+   header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */
+   header .nav .nav-item .nav-link { font-size: 1rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; } 
+   header .p-3 { padding: 0.65rem !important; } 
+
+   /* Sección principal */
+   main h2 { font-size: 2rem; }   
+   main .my-5 { margin-top: 3rem !important; margin-bottom: 3rem !important; }
+   main .carousel-indicators { bottom: 0rem !important; }
+   main .carousel-caption { padding-bottom: 3rem !important; }
+   main .carousel-inner .carousel-caption .mb-5 { margin-bottom: 0 !important; }
+   main .carousel-inner .carousel-caption .mb-5 h2 { font-size: 2rem; margin-bottom: 1.25rem; }
+   main .carousel-inner .carousel-caption .mb-5 h3 { font-size: 1.5rem; margin-bottom: 1.25rem; }
+   main .carousel-inner .carousel-caption .mb-5 h5 { font-size: 1.25rem; }   
+   main h4 { font-size: 1.75rem; margin-bottom: 1.5rem; }
+   main p { font-size: 1rem; margin-bottom: 0; padding-left: 0.75rem; padding-right: 0.75rem; }
+   main .icono { width: 6rem; height: 6rem; }
+   main .col-sm-3 { margin-top: 1.5rem !important; }
+   main .col-sm-6 { max-width: 35% !important; }
+   main .col-sm-4 { max-width: 31% }
+   main .card-title { margin-top: 0.5rem !important; }
+
+   /* Pie de página */
+   footer { font-size: 0.9rem !important; }
+   footer .row { flex-wrap: nowrap; }      
+   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+   /* Encabezado */
+   header .iconHeader { font-size: 1.5rem; } 
+   header p { font-size: 0.65rem; }
+   header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */
+   header .nav .nav-item .nav-link { font-size: 1rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; } 
+   header .p-3 { padding: 0.65rem !important; }
+
+   /* Sección principal */
+   main h2 { font-size: 2rem; }   
+   main .my-5 { margin-top: 3rem !important; margin-bottom: 3rem !important; }
+   main .carousel-indicators { bottom: 0rem !important; }
+   main .carousel-caption { padding-bottom: 3rem !important; }
+   main .carousel-inner .carousel-caption .mb-5 { margin-bottom: 0 !important; }
+   main .carousel-inner .carousel-caption .mb-5 h2 { font-size: 2rem; margin-bottom: 1.25rem; }
+   main .carousel-inner .carousel-caption .mb-5 h3 { font-size: 1.5rem; margin-bottom: 1.25rem; }
+   main .carousel-inner .carousel-caption .mb-5 h5 { font-size: 1.25rem; }   
+   main h4 { font-size: 1.75rem; margin-bottom: 1.5rem; }
+   main p span { font-size: 0.85rem;}
+   main p { font-size: 1rem; margin-bottom: 0; padding-left: 0.75rem; padding-right: 0.75rem; }   
+   main .icono { width: 6rem; height: 6rem; }
+   main .col-sm-3 { margin-top: 1.5rem !important; }
+   main .col-sm-6 { max-width: 35% !important; }
+   main .col-sm-4 { max-width: 31%; }
+   main .card-title { margin-top: 0.5rem !important; }
+
+   /* Pie de página */
+   footer { font-size: 0.8rem !important; }
+   footer .row { flex-wrap: nowrap; }      
+   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {   
+   /* Encabezado */         
+   header .iconHeader { font-size: 1.5rem; } 
+   header p { font-size: 0.65rem; }
+   header .py-3 { padding-top: 0.6rem !important; padding-bottom: 0.6rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */
+   header .nav .nav-item .nav-link { font-size: 1rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; } 
+   header .p-2 { padding: 0 !important; } 
+
+   /* Sección principal */
+   main h2 { font-size: 1.75rem; }  
+   main .my-5 { margin-top: 2.25rem !important; margin-bottom: 2.25rem !important; }
+   main .carousel-indicators { bottom: -0.5rem !important; }
+   main .carousel-caption { padding-bottom: 2.25rem !important; }   
+   main .carousel-inner .carousel-caption .mb-5 { margin-bottom: 0 !important; }
+   main .carousel-inner .carousel-caption .mb-5 h2 { font-size: 1.75rem !important; margin-bottom: 1.25rem; }
+   main .carousel-inner .carousel-caption .mb-5 h3 { font-size: 1.25rem !important; margin-bottom: 1.25rem; }
+   main .carousel-inner .carousel-caption .mb-5 h5 { font-size: 1rem !important; }
+   main h4 { font-size: 1.25rem; }
+   main p { font-size: 0.85rem; margin-bottom: 0; padding-left: 1rem; padding-right: 1rem; }
+   main .noticias p { padding-left: 0.75rem; padding-right: 0.75rem; }
+   main .pb-4 { padding-bottom: 0 !important; }  
+   main .icono { width: 4.5rem; height: 4.5rem; }
+   main .col-sm-3, main .col-sm-6 { padding-left: 1.5rem; padding-right: 1.5rem; }      
+   main .col-sm-4 { max-width: 30%; }   
+   main .btn-lg, main .card .card-body a { padding: 0.7rem !important; font-size: 1rem !important; }
+   main .card-title { margin-top: 0.5rem !important; }
+
+   /* Pie de página */
+   footer { font-size: 0.8rem !important; }
+   footer .row { flex-wrap: nowrap; }      
+   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+   /* Encabezado */         
+   header .iconHeader { font-size: 1.25rem; }   
+   header p { font-size: 0.55rem; }
+   header .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */   
+   header .nav .nav-item .nav-link .iconNav { font-size: 0.7rem !important; }
+   header .nav .nav-item .nav-link { font-size: 0.7rem !important; }
+   header .p-3 { padding: 0.25rem !important; }
+   header .col-sm-12 { max-width: 97%; }
+   
+   /* Sección principal */
+   main h2 { font-size: 1.5rem; }
+   main .my-5 { margin-top: 1.5rem !important; margin-bottom: 1.5rem !important; }
+   main .carousel-indicators { bottom: -0.75rem !important; }
+   main .carousel-caption { padding-bottom: 1.5rem !important; }
+   main .carousel-inner .carousel-caption .mb-5 { margin-bottom: 0 !important; }
+   main .carousel-inner .carousel-caption .mb-5 h2 { font-size: 1.25rem !important; margin-bottom: 1rem; }
+   main .carousel-inner .carousel-caption .mb-5 h3 { font-size: 1rem !important; margin-bottom: 1rem; }
+   main .carousel-inner .carousel-caption .mb-5 h5 { font-size: 0.75rem !important; }            
+   main h4 { font-size: 1rem; }
+   main p { font-size: 0.75rem; margin-bottom: 0; padding-left: 0.5rem; padding-right: 0.5rem; } 
+   main .pb-4 { padding-bottom: 0 !important; }    
+   main .icono { width: 3.5rem; height: 3.5rem; }
+   main .col-sm-3, main .col-sm-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+   main .col-sm-4 { max-width: 30%; }
+   main .btn-lg, main .card .card-body a { padding: 0.5rem !important; font-size: 0.75rem !important; }   
+   main .card-title { margin-top: 0.5rem !important; }
+
+   /* Pie de página */   
+   footer .row { flex-wrap: nowrap; }
+   footer { font-size: 0.65rem !important; }
+   footer .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }   
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+   /* Encabezado */   
+   header .iconHeader { font-size: 1rem; }
+   header p { font-size: 0.5rem; }
+   header .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+   
+   /* Menu de navegación */   
+   header .nav .nav-item .nav-link { font-size: 0.6rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 0.6rem !important; }
+   header .p-3 { padding: 0.25rem !important; }
+
+   /* Sección principal */
+   main h2 { font-size: 1.25rem; }      
+   main .carousel-indicators { bottom: -1rem !important; }
+   main .carousel-caption { padding-bottom: 0.75rem !important; }   
+   main .carousel-inner .carousel-caption .mb-5 { margin-bottom: 0 !important; }
+   main .carousel-inner .carousel-caption .mb-5 h2 { font-size: 1rem; margin-bottom: 0.75rem; }
+   main .carousel-inner .carousel-caption .mb-5 h3 { font-size: 0.75rem; margin-bottom: 0.75rem; }
+   main .carousel-inner .carousel-caption .mb-5 h5 { font-size: 0.5rem; }   
+   main h4 { font-size: 1rem; }
+   main p { font-size: 0.75rem; margin-bottom: 0; padding-left: 0.5rem; padding-right: 0.5rem; } 
+   main .pb-4 { padding-bottom: 0 !important; } 
+   main .icono { width: 2.5rem !important; height: 2.5rem !important; }
+   main .col-sm-3, main .col-sm-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+   main .col-sm-4 { max-width: 30%; }
+   main .btn-lg, main .card .card-body a { padding: 0.5rem !important; font-size: 0.75rem !important; }
+   main .card-title { margin-top: 0.5rem !important; }
+    
+   /* Pie de página */ 
+   footer .row { flex-wrap: nowrap; }
+   footer { font-size: 0.5rem; }
+   footer .py-3 { padding-top: 0 !important; padding-bottom: 0 !important; }
+   footer p { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+}

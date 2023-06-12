@@ -1,0 +1,168 @@
+<!-- Sección cinco: formulario de contacto -->
+<div class="col-md-6 px-5 pt-4">                      
+    <h4 class="text-black-50 my-3">Envíanos un mensaje o concreta un cita:</h4>
+    <div class="borde_gr mb-3"></div>
+    <form action="../enviarCorreo" method="POST" class="frmContacto needs-validation" novalidate>
+        <div class="form-row">
+            <div class="col-md-12 pb-2">
+                <label><strong>Ingrese sus datos para contacto:</strong></label>
+            </div>       
+            <div class="form-group col-md-6">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" class="form-control" aria-describedby="" id="nombre" name="nombre" placeholder="Nombre" value="" required>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Completa el campo</div>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" class="form-control" aria-describedby="" id="correo" name="correo" placeholder="Correo electrónico" value="" required>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Completa el campo</div>
+            </div>
+        </div>
+        <div class="form-row pb-3">
+            <div class="form-group col-md-6">
+                <label for="direccion">Dirección:</label>
+                <input type="text" class="form-control" aria-describedby="" id="direccion" name="direccion" placeholder="Dirección o domicilio" value="" required>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Completa el campo</div>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="telcasa">Teléfono casa:</label>
+                <input type="tel" class="form-control" aria-describedby="" id="telcasa" name="telcasa" placeholder="Teléfono de casa" value="" required>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Completa el campo</div>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="telcelular">Teléfono celular:</label>
+                <input type="tel" class="form-control" aria-describedby="" id="telcelular" name="telcelular" placeholder="Teléfono celular" value="" required>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Completa el campo</div>
+            </div>
+        </div>
+        <div class="form-row border-dark-50 border-top pt-3">
+            <div class="col-md-12 pb-2">
+                <label><strong>Ingrese los datos de su vehículo y seleccione el servicio que necesita:</strong></label>
+            </div>            
+            <div class="form-group col-md-3">
+                <label for="marca">Marca del vehículo:</label>
+                <select class="form-control" id="marca" name="marca" required>
+                    <option selected disabled value="">Elija una marca</option>
+                    <option>Marca 1</option>
+                    <option>Marca 2</option>
+                    <option>Marca 3</option>
+                    <option>Marca 4</option>
+                    <option>Marca 5</option>
+                </select>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Elige la marca de tu automóvil</div>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="modelo">Modelo del vehículo:</label>
+                <input type="text" class="form-control" id="modelo" name="modelo" placeholder="Modelo del vehículo" value="" required>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Completa el campo</div>
+            </div>                
+            <div class="form-group col-md-3">
+                <label for="anio">Año del vehículo:</label>
+                <input type="text" class="form-control" id="anio" name="anio" placeholder="Año del vehículo" value="" required>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Completa el campo</div>
+            </div>
+        </div>        
+        <div class="form-row py-2">
+            <div class="form-group col-md-12">                
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="serv_1" name="servicio" class="opcion" value="Llantas">
+                    <label class="custom-control-label" for="serv_1">Llantas</label>                    
+                </div>                
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="serv_2" name="servicio" class="opcion" value="Motor">
+                    <label class="custom-control-label" for="serv_2">Motor</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="serv_3" name="servicio" class="opcion" value="Pintura">
+                    <label class="custom-control-label" for="serv_3">Pintura</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="serv_4" name="servicio" class="opcion" value="Aceite">
+                    <label class="custom-control-label" for="serv_4">Aceite</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="serv_5" name="servicio" class="opcion" value="Diagnostico">
+                    <label class="custom-control-label" for="serv_5">Diagnóstico</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="serv_6" name="servicio" class="opcion" value="Aire_acondicionado">
+                    <label class="custom-control-label" for="serv_6">Aire acondicionado</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="serv_7" name="servicio" class="opcion" value="Otros_servicios">
+                    <label class="custom-control-label" for="serv_7">Otro servicio</label>
+                </div>
+            </div>            
+        </div>
+        <div class="form-row border-dark-50 border-top pb-2 pt-3"> 
+            <div class="col-md-12 pb-2">
+                <label><strong>Elija el horario de su cita:</strong></label>
+            </div>       
+            <div class="form-group col-md-3">
+                <label for="fcita">Fecha cita:</label>
+                <input type="date" class="form-control" id="fcita" name="fecha_cita" min="2022-01-01" max="2024-12-31" value="" required>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Seleccione la fecha de su cita</div>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="hcita">Hora cita:</label>
+                <input type="time" class="form-control" id="hcita" name="hora_cita" min="07:30" max="17:00" value="" required>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Seleccione la hora de su cita</div>
+            </div>
+        </div>          
+        <div class="form-row border-dark-50 border-top pt-3">
+            <div class="form-group col-md-12">
+                <label for="comentario"><strong>Describa su solicitud de servicio o comentario adicional:</strong></label>
+                <textarea class="form-control" cols="30" rows="5" id="comentario" name="comentario" required></textarea>
+                <div class="valid-feedback is-valid">¡OK, válido!</div>
+                <div class="invalid-feedback is-invalid">Favor realice una breve descripción del problema de su auto</div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <button type="submit" class="btn btn-primary" id="boton">Enviar mensaje</button>
+            </div>
+        </div>
+    </form>
+    <script>
+        const opt = document.getElementsByClassName('opcion');
+        const btn = document.querySelector('#boton');
+
+        btn.onclick = () => {
+            opt.value;
+        };   
+
+    </script>    
+
+    <script>        
+        // Función que permite la deshabilitación del envío de datos en formularios si hay campos inválidos
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                
+                // Obtener todos los formularios a los que queremos aplicar estilos de validación personalizados
+                var forms = document.getElementsByClassName('needs-validation');
+            
+                // Recorre los formularios y evita que el form se envíe de forma inmediata
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                    form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();                 
+    </script>    
+</div>

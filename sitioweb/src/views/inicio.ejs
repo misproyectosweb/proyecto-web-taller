@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Taller, Enterprice, Servicio, Equipo, Noticias, Contacto, Nosotros"/>
+        <meta name="description" content="Bienvenidos a la página web del taller Enterprice, donde encontrará un amplio y variada oferta de servicios para el cuidado de su automóvil"/>
+        <link rel="stylesheet" type="text/css" href="css/estilosInicio.css">
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconotools.png"/>
+        <title><%- titulo %></title>
+        <%- include('partials/head') %>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <!-- Sección uno: encabezado -->
+                <%- include('partials/encabezado') %>
+
+                <!-- Sección dos: menú de navegación -->
+                <%- include('partials/navegacion') %>                                                                
+            </div>            
+        </header>
+        <main>
+            <div class="container-fluid pt-3">            
+                <!-- Sección tres: información general - título página -->
+                <%- include('partials/t_inicio') %>
+
+                <!-- Sección cuatro: información general - carrusel de imagenes -->
+                <%- include('partials/ca_inicio') %>
+
+                <!-- Sección cinco: información general - cualidades de la empresa -->
+                <%- include('partials/e_inicio') %>
+                        
+                <!-- Sección seis: información general - resumen servicios ofrecidos -->
+                <%- include('partials/s_inicio') %>
+
+                <!-- Sección siete: información general - enlace a formulario para citas -->
+                <%- include('partials/ci_inicio') %>
+                
+                <!-- Sección ocho: información general - sección de noticias o blog -->
+                <%- include('partials/nt_inicio') %>  
+            </div>      
+        </main>        
+        <footer>
+            <div class="container-fluid d-flex justify-content-center bg-secondary">
+                <!-- Sección nueve: información general - información de contacto del negocio -->
+                <%- include('partials/piepagina') %>        
+
+                <!-- Sección diez: lista de archivos y enlaces a utilizar por el sitio web -->
+                <%- include('partials/footer') %>            
+        </footer> 
+        
+        <!-- JavaScript -->
+        <script>            
+            function ResaltarOpcion(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+
+            function noResaltarOpcion(id, color) {
+                document.getElementById(id).style.background = color;
+            }
+        </script>     
+    </body>
+</html>

@@ -1,0 +1,185 @@
+/* Encabezado */
+header .iconHeader { font-size: 2rem; } 
+header p { font-size: 0.8rem; }
+header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+header .row img.img-fluid.w-50 { width: 50% !important; }
+
+/* Menu de navegación */
+header .nav .nav-item .nav-link { font-size: 1.25rem !important; }
+header .nav .nav-item .nav-link .iconNav { font-size: 1.5rem !important; } 
+header .p-3 { padding: 1rem !important; } 
+
+/* Sección principal */
+main .row img.img-fluid.w-75 { width: 90% !important; height: 500px !important; }
+iframe { width: 90%; height: 500px; }
+
+/****************************** Media queries ******************************/
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+   /* Encabezado */
+   header .iconHeader { font-size: 1.5rem; } 
+   header p { font-size: 0.8rem; }
+   header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */
+   header .nav .nav-item .nav-link { font-size: 1rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; } 
+   header .p-3 { padding: 0.65rem !important; } 
+   
+   /* Sección principal */
+   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
+   main h2 { font-size: 1.85rem; }
+   main h4 { font-size: 1.25rem; }   
+   main .row img.img-fluid.w-75 { width: 90% !important; height: 375px !important; }
+   iframe { width: 90%; height: 375px; }
+   main .form-control { font-size: 0.85rem; }
+   main .pb-5 { padding-bottom: 1rem !important;}
+   main .px-5 { padding-left: 1.5rem !important;}
+   main label { font-size: 0.9rem;}
+   main .btn { font-size: 0.9rem !important; }  
+   
+   /* Pie de página */
+   footer { font-size: 0.9rem !important; }
+   footer .row { flex-wrap: nowrap; }      
+   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+   /* Encabezado */
+   header .iconHeader { font-size: 1.5rem; } 
+   header p { font-size: 0.65rem; }
+   header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */
+   header .nav .nav-item .nav-link { font-size: 1rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; } 
+   header .p-3 { padding: 0.65rem !important; }
+  
+   /* Sección principal */
+   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
+   main h2 { font-size: 1.75rem; }
+   main h4 { font-size: 1.15rem; }   
+   main .row img.img-fluid.w-75 { width: 90% !important; height: 350px !important; }
+   iframe { width: 90%; height: 350px; }
+   main .form-control { font-size: 0.75rem; }
+   main .pb-5 { padding-bottom: 1rem !important;}
+   main .px-5 { padding-left: 1.5rem !important;}
+   main label { font-size: 0.8rem;}
+   main .btn { font-size: 0.8rem !important; }   
+
+   /* Pie de página */
+   footer { font-size: 0.8rem !important; }
+   footer .row { flex-wrap: nowrap; }      
+   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+ }
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* Encabezado */         
+   header .iconHeader { font-size: 1.5rem; } 
+   header p { font-size: 0.65rem; }
+   header .py-3 { padding-top: 0.6rem !important; padding-bottom: 0.6rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */
+   header .nav .nav-item .nav-link { font-size: 1rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; } 
+   header .p-2 { padding: 0 !important; }
+           
+    /* Sección principal */
+   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
+   main h2 { font-size: 1.75rem; }
+   main h4 { font-size: 1.25rem; }
+   main p { font-size: 1rem; margin-bottom: 0; }
+   main .row img.img-fluid.w-75 { width: 95% !important; }
+   iframe { width: 95%; height: 460px; }
+   main .form-control { font-size: 0.75rem; }
+   main .btn { padding: 0.5rem !important; font-size: 0.75rem !important; }
+   main .px-5 { padding-left: 2.5rem !important; padding-right: 2.5rem !important; }
+   main .pt-4 { padding-top: 1.25rem !important; }
+   main .mb-4 { margin-bottom: 0.5rem !important; } 
+   main .mb-5 { margin-bottom: 2.5rem !important; }
+   main .row { flex-direction: column !important; }
+   main .col-md-6 { max-width: 100%; flex: 0 0 50%; }
+   main .iconServ { width: 2rem; height: 2rem; }
+   main label { font-size: 1rem; }
+     
+   /* Pie de página */
+   footer { font-size: 0.8rem !important; }
+   footer .row { flex-wrap: nowrap; }      
+   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* Encabezado */         
+  header .iconHeader { font-size: 1.25rem; }   
+  header p { font-size: 0.55rem; }
+  header .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+  header .row img.img-fluid.w-50 { width: 50% !important; }
+
+  /* Menu de navegación */   
+  header .nav .nav-item .nav-link .iconNav { font-size: 0.7rem !important; }
+  header .nav .nav-item .nav-link { font-size: 0.7rem !important; }
+  header .p-3 { padding: 0.25rem !important; }
+  header .col-sm-12 { max-width: 97%; }
+ 
+   /* Sección principal */
+   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
+   main h2 { font-size: 1.5rem; }
+   main h4 { font-size: 1rem; }
+   main p { font-size: 0.75rem; margin-bottom: 0; }
+   main .row img.img-fluid.w-75 { width: 90% !important; }
+   iframe { width: 90%; height: 400px; }
+   main .form-control { font-size: 0.75rem; }
+   main .btn { padding: 0.5rem !important; font-size: 0.75rem !important; }
+   main .px-5 { padding-left: 2rem !important; padding-right: 2rem !important; }
+   main .pt-4 { padding-top: 0.75rem !important; }
+   main .mb-4 { margin-bottom: 0.5rem !important; }
+   main .mb-5 { margin-bottom: 2rem !important; }
+   main ul li { font-size: 0.75rem; }
+   main .row { flex-direction: column !important; }
+   main .col-md-6 { max-width: 100%; flex: 0 0 50%; }   
+   main .iconServ { width: 1.5rem; height: 1.5rem; }
+   main label { font-size: 0.75rem; }
+           
+   /* Pie de página */   
+   footer .row { flex-wrap: nowrap; }
+   footer { font-size: 0.65rem !important; }
+   footer .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+   /* Encabezado */   
+   header .iconHeader { font-size: 1rem; }
+   header p { font-size: 0.5rem; }
+   header .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+   
+   /* Menu de navegación */   
+   header .nav .nav-item .nav-link { font-size: 0.6rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 0.6rem !important; }
+   header .p-3 { padding: 0.25rem !important; }
+  
+   /* Sección principal */
+   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
+   main h2 { font-size: 1.5rem; }
+   main h4 { font-size: 1rem; }    
+   main p { font-size: 0.75rem; margin-bottom: 0; }
+   main .row img.img-fluid.w-75 { width: 90% !important; }
+   iframe { width: 90%; height: 400px; }
+   main .form-control { font-size: 0.75rem; }
+   main .btn { padding: 0.5rem !important; font-size: 0.75rem !important; }
+   main .px-5 { padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
+   main .pt-4 { padding-top: 0.5rem !important; }
+   main .mb-4 { margin-bottom: 0.5rem !important; }
+   main .mb-5 { margin-bottom: 1.5rem !important; }
+   main ul li { font-size: 0.75rem; }
+   main .iconServ { width: 1.25rem; height: 1.25rem; }
+   main label { font-size: 0.75rem; }      
+             
+   /* Pie de página */ 
+   footer .row { flex-wrap: nowrap; }
+   footer { font-size: 0.5rem; }
+   footer .py-3 { padding-top: 0 !important; padding-bottom: 0 !important; }
+   footer p { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+}

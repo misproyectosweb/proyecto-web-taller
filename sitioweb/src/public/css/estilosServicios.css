@@ -1,0 +1,140 @@
+/* Encabezado */
+header .iconHeader { font-size: 2rem; } 
+header p { font-size: 0.8rem; }
+header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+header .row img.img-fluid.w-50 { width: 50% !important; }
+
+/* Menu de navegación */
+header .nav .nav-item .nav-link { font-size: 1.25rem !important; }
+header .nav .nav-item .nav-link .iconNav { font-size: 1.5rem !important; } 
+header .p-3 { padding: 1rem !important; } 
+
+/* Sección principal */
+main .row img.img-fluid { width: 100% !important; height: 90% !important; }
+
+/****************************** Media queries ******************************/
+
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+   /* Encabezado */
+   header .iconHeader { font-size: 1.5rem; } 
+   header p { font-size: 0.75rem; }
+   header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */
+   header .nav .nav-item .nav-link { font-size: 1rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; } 
+   header .p-3 { padding: 0.65rem !important; } 
+ 
+   /* Sección principal */
+   main .row img.img-fluid { width: 100% !important; height: 90% !important; }
+
+   /* Pie de página */
+   footer { font-size: 0.9rem !important; }
+   footer .row { flex-wrap: nowrap; }      
+   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+   /* Encabezado */
+   header .iconHeader { font-size: 1.5rem; } 
+   header p { font-size: 0.65rem; }
+   header .py-3 { padding-top: 0.7rem !important; padding-bottom: 0.7rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */
+   header .nav .nav-item .nav-link { font-size: 1rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; } 
+   header .p-3 { padding: 0.65rem !important; }
+ 
+   /* Sección principal */
+   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
+   main h2 { font-size: 2rem; }
+   main .row img.img-fluid { width: 100% !important; height: 90% !important; }
+   
+   /* Pie de página */
+   footer { font-size: 0.8rem !important; }
+   footer .row { flex-wrap: nowrap; }      
+   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
+ 
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+   /* Encabezado */         
+   header .iconHeader { font-size: 1.5rem; } 
+   header p { font-size: 0.65rem; }
+   header .py-3 { padding-top: 0.6rem !important; padding-bottom: 0.6rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */
+   header .nav .nav-item .nav-link { font-size: 1rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 1rem !important; } 
+   header .p-2 { padding: 0 !important; } 
+          
+   /* Sección principal */
+   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }    
+   main h2 { font-size: 1.75rem; }
+   main h3 { font-size: 1.5rem; }
+   main p { font-size: 0.85rem; margin-bottom: 0.5rem; } 
+   main ul li { font-size: 0.85rem; line-height: 1.5rem; }
+   main .row img.img-fluid { width: 90% !important; height: 90% !important; }
+   
+   /* Pie de página */
+   footer { font-size: 0.8rem !important; }
+   footer .row { flex-wrap: nowrap; }      
+   footer .py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+   /* Encabezado */         
+   header .iconHeader { font-size: 1.25rem; }   
+   header p { font-size: 0.55rem; }
+   header .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+   header .row img.img-fluid.w-50 { width: 50% !important; }
+
+   /* Menu de navegación */   
+   header .nav .nav-item .nav-link .iconNav { font-size: 0.7rem !important; }
+   header .nav .nav-item .nav-link { font-size: 0.7rem !important; }
+   header .p-3 { padding: 0.25rem !important; }
+   header .col-sm-12 { max-width: 97%; }
+
+   /* Sección principal */
+   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }   
+   main h2 { font-size: 1.5rem; }
+   main h3 { font-size: 1.25rem; }
+    main .pb-3 { padding-bottom: 0rem !important; }
+   main p { font-size: 0.75rem; margin-bottom: 0.5rem; }
+   main ul li { font-size: 0.75rem; line-height: 1.25rem; }
+   main .row img.img-fluid { width: 90% !important; height: 90% !important; }
+
+   /* Pie de página */   
+   footer .row { flex-wrap: nowrap; }
+   footer { font-size: 0.65rem !important; }
+   footer .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+   /* Encabezado */   
+   header .iconHeader { font-size: 1rem; }
+   header p { font-size: 0.5rem; }
+   header .py-3 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+   
+   /* Menu de navegación */   
+   header .nav .nav-item .nav-link { font-size: 0.6rem !important; }
+   header .nav .nav-item .nav-link .iconNav { font-size: 0.6rem !important; }
+   header .p-3 { padding: 0.25rem !important; }
+ 
+   /* Sección principal */
+   main .mt-5 { margin-top: 1rem !important; margin-bottom: 0rem !important; }
+   main h2 { font-size: 1.25rem; }
+   main h3 { font-size: 1rem; }
+   main .pb-3 { padding-bottom: 0rem !important; }
+   main p { font-size: 0.65rem; margin-bottom: 0.5rem; }
+   main ul li { font-size: 0.65rem; line-height: 1rem; }
+   main .row img.img-fluid { width: 90% !important; height: 90% !important; }        
+        
+   /* Pie de página */ 
+   footer .row { flex-wrap: nowrap; }
+   footer { font-size: 0.5rem; }
+   footer .py-3 { padding-top: 0 !important; padding-bottom: 0 !important; }
+   footer p { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+}
